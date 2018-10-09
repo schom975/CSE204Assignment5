@@ -1,0 +1,303 @@
+
+body{
+  background-color: #f2f2f2;
+  margin-top: 75px;
+}
+
+header{
+  z-index: 100;
+  background-color: white;
+  left: 0px;
+  top: 0px;
+  position: fixed;
+  width:100%;
+  height: 13%;
+}
+
+.panel-heading{
+  background-color: white;
+  height:68px;
+  width: 775px;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-top: 1px solid black;
+}
+
+.panel-footer{
+  background-color:white;
+  height:220px;
+  width: 775px;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+
+}
+
+.acutalComment{
+  height:49px;
+  width:773px;
+}
+
+.comment{
+  height:50px;
+  width:775px;
+}
+
+.panel-body{
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.panel{
+  float:right;
+  padding-top: 50px;
+  width: 775px;
+}
+
+.pic_icons img{
+  margin-left: 20px;
+  margin-top: 18px;
+
+  height:30px;
+  width:30px;
+}
+
+.likes{
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.caption{
+  margin-top: 8px;
+  margin-left: 20px;
+}
+
+.time_ago{
+  margin-left:20px;
+  color:  #a6a6a6;
+}
+
+.pic_icons .image_ribbon{
+  height:35px;
+  width:35px;
+  margin-right: 20px;
+  float:right;
+}
+
+.contentpicture{
+  background-color: blue;
+  height: 615px;
+  width: 773px;
+}
+
+.navbar{
+  display: inline-block;
+  width: auto;
+  margin-top: 10px;
+}
+
+header li{
+  display:inline-block;
+  margin-top: 10px;
+}
+
+@media (max-width: 950px) {
+  #story_section{
+    display:none;
+  }
+}
+
+#suggested{
+  border:1px solid black;
+  background-color: white;
+  width:775px;
+  height:300px;
+  float:right;
+  margin-top: 70px;
+  margin-bottom: 25px;
+}
+
+#suggestedWords{
+  position: relative;
+  margin-top: 12px;
+  margin-left: 16px;
+  font-size: 16px;
+  color:  #a6a6a6;
+}
+
+.suggestedItem{
+  border:1px solid black;
+  margin-left: 9%;
+  z-index: 90;
+  background-color: #f2f2f2;
+  float:left;
+  height:200px;
+  width:170px;
+}
+
+#followButton{
+  margin-left: 28%;
+}
+
+.suggested_images{
+  height:65px;
+  width:65px;
+  border-radius: 50%;
+  margin-top: 18%;
+  margin-left: 32%;
+}
+
+.suggested_name{
+  text-align: center;
+  font-size: 16px;
+  margin-top: 10%;
+}
+
+#stories{
+  position: fixed;
+  width:75px;
+  height:200px;
+  float:left;
+  margin-left:2px;
+}
+
+#storiesHeader{
+  border:0;
+  width:320px;
+  height:70px;
+  float:left;
+  margin-left:2px;
+  background-color: #f2f2f2;
+
+}
+
+#storyFooter{
+  border:0;
+  width:320px;
+  height:40px;
+  float:left;
+  margin:2px;
+  background-color: #f2f2f2;
+}
+
+#storiesBody{
+  overflow: scroll;
+  border:0;
+  width:320px;
+  height: 320px;
+  float:left;
+  margin-left: 2px;
+}
+
+#copywrite{
+  font-size: 14px;
+  color:#a6a6a6;
+}
+
+.aStory{
+  height:70px;
+  background-color: #f2f2f2;
+}
+
+.User{
+  margin-top: 10px;
+}
+
+.realName{
+  margin-left: 15px;
+}
+
+.storyProf{
+  border:5px solid pink;
+  float:left;
+  margin-top: 8px;
+  margin-left: 10px;
+  height:50px;
+  width:50px;
+  border-radius: 50%;
+}
+
+#storiesWords{
+  color:#a6a6a6;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+#ryanReynoldsUser{
+  margin-top: 12px;
+  margin-left: 5px;
+  float:left;
+}
+
+#ryanReynolds{
+  margin-left: 7px;
+  margin-top: 0px;
+  float:left;
+}
+
+
+.header_images_left{
+  float:left;
+  height:35px;
+  width:35px;
+}
+
+#username{
+  float:left;
+  margin-left: 10px;
+  margin-top: 22px;
+}
+
+
+#instagramWords{
+  height:37px;
+  width:200px;
+}
+
+#navbar_left{
+  float:left;
+}
+
+#searchbox{
+  position:absolute;
+  margin-left:43%;
+  margin-right:57%;
+  margin-top: 30px;
+}
+
+
+#actualsearch{
+  background-color: #f2f2f2;
+  text-align: center;
+  width:175px;
+  height:22px;
+  border-radius: 5px;
+}
+
+#actualsearch:focus{
+  background-color:grey;
+}
+
+#navbar_right{
+  float:right;
+}
+
+#smallprint{
+  color:#a6a6a6;
+  font-size: 10px;
+}
+
+.userpostpic{
+  float:left;
+  border-radius: 50%;
+  margin-left: 20px;
+  margin-top: 10px;
+  height:50px;
+  width:60px;
+}
+
+.header_images_right{
+  margin-right: 30px;
+  height:40px;
+  width:40px;
+}
